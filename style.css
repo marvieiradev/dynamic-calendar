@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
-    --primary-color: red;
-    --text-color: black;
-    --bg-color: white;
+    --primary-color: #5d30ff;
+    --primary-dark: #3000df;
+    --text-color: #000;
+    --bg-color: #5d30ff21;
 }
 
 * {
@@ -70,7 +71,7 @@ body {
 }
 
 .calendar .header .btns .btn:hover {
-    background-color: #db0933;
+    background-color: var(--primary-dark);
     transform: scale(1.05);
 }
 
